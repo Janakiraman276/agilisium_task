@@ -59,7 +59,6 @@ jobs:
     - name: Terraform destroy
       working-directory: infra
       run: |
-          cd infra
           terraform init
           terraform destroy -auto-approve
 
